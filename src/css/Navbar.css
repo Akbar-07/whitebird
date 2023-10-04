@@ -1,0 +1,61 @@
+.navbar{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding: 0px 5%;
+}
+.for_center_nav{
+    display: flex;
+    flex: 1.5 1 0%;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+.for_end_nav{
+    display: flex;
+    flex: 1 1 0%;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    align-items: center;
+}
+.for_start_nav{
+    flex: 1 1 0%;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 24px 0px;
+    width: 100%;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+.for_center_nav li{
+    display: inline;
+    font-size: 22px;
+    color: white;
+}
+.for_start_nav img{
+    height: 45px;
+}
+.for_button{
+    cursor: pointer;
+    margin-left: 20px;
+    background: rgb(255, 255, 255);
+    padding: 6px 24px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+.for_button p{
+    margin: 0;
+    font-size: 20px;
+}
+.nav_icon{
+    font-size: 30px;
+    color: rgb(195, 220, 255);
+}
+.fdcHno circle {
+    fill: rgb(195, 220, 255);
+}
